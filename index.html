@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>花畑の朝</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url("bg0.png");
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        .container {
+            position: relative;
+            width: 100vw;
+            height: 100vh;
+        }
+
+        .message {
+            position: absolute;
+            top: 40px;
+            left: 40px;
+            color: #b33e5c;
+            font-size: 24px;
+            font-weight: bold;
+            line-height: 1.6;
+            background-color: rgba(255, 255, 255, 0.6);
+            padding: 10px 20px;
+            border-radius: 4px;
+            z-index: 10;
+        }
+
+        .butterfly {
+            position: absolute;
+            z-index: 20;
+        }
+
+        .bf1 { top: 70%; left: 20%; width: 80px; }
+        .bf2 { top: 60%; left: 45%; width: 70px; }
+        .bf3 { top: 75%; left: 65%; width: 75px; }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="message">
+            ぽかぽか陽気の穏やかな朝<br>
+            花畑では、蝶々がのんびり飛んでいます
+        </div>
+
+        <img src="butterfly.gif" alt="蝶" class="butterfly bf1">
+        <img src="butterfly.gif" alt="蝶" class="butterfly bf2">
+        <img src="butterfly.gif" alt="蝶" class="butterfly bf3">
+    </div>
+
+</body>
+</html>
